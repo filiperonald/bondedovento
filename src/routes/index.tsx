@@ -97,7 +97,7 @@ const WHATS = "https://wa.me/5500000000000";
 
 /* ---------- Page ---------- */
 
-function Home() {
+export function Home() {
   return (
     <div className="relative min-h-screen overflow-x-hidden text-graphite">
       <KiteCursor />
