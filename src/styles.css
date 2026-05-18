@@ -54,32 +54,32 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.22 0.04 260);
 
-  --primary: oklch(0.68 0.21 340);          /* pink-pop #F15BB5 */
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.78 0.16 250);
-  --secondary-foreground: oklch(0.22 0.04 260);
+  --primary: oklch(0.88 0.16 90);          /* #FFD166 */
+  --primary-foreground: oklch(0.22 0.04 260);
+  --secondary: oklch(0.82 0.13 230);        /* #4CC9F0 */
+  --secondary-foreground: oklch(0.98 0.01 260);
   --muted: oklch(0.95 0.02 230);
   --muted-foreground: oklch(0.45 0.03 260);
-  --accent: oklch(0.85 0.15 95);            /* sun */
-  --accent-foreground: oklch(0.22 0.04 260);
+  --accent: oklch(0.64 0.2 230);            /* blue accent */
+  --accent-foreground: oklch(0.98 0.01 260);
   --destructive: oklch(0.58 0.24 27);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.9 0.02 240);
   --input: oklch(0.9 0.02 240);
-  --ring: oklch(0.68 0.21 340);
+  --ring: oklch(0.88 0.16 90);
 
   /* Brand tokens (hex equivalents in comments) */
   --sky: oklch(0.82 0.13 230);        /* #4CC9F0 */
   --sun: oklch(0.88 0.16 90);         /* #FFD166 */
   --flame: oklch(0.74 0.18 50);       /* #FF8A3D */
   --leaf: oklch(0.79 0.16 145);       /* #7BD389 */
-  --grape: oklch(0.62 0.21 305);      /* #9B5DE5 */
-  --pink-pop: oklch(0.68 0.21 340);   /* #F15BB5 */
+  --grape: oklch(0.50 0.19 255);      /* deep blue */
+  --pink-pop: oklch(0.82 0.13 230);   /* blue */
   --graphite: oklch(0.26 0.03 260);   /* #1F2937 */
 
   --gradient-sky: linear-gradient(180deg, oklch(0.92 0.07 230) 0%, oklch(0.98 0.02 90) 100%);
-  --gradient-sunset: linear-gradient(135deg, oklch(0.88 0.16 90), oklch(0.72 0.21 30) 50%, oklch(0.68 0.21 340));
-  --gradient-vento: linear-gradient(120deg, var(--sky), var(--grape) 50%, var(--pink-pop));
+  --gradient-sunset: linear-gradient(135deg, var(--sun), var(--sky) 50%, var(--secondary) 75%);
+  --gradient-vento: linear-gradient(120deg, var(--sky), var(--secondary) 50%, var(--sun));
   --shadow-pop: 0 18px 40px -18px oklch(0.62 0.21 305 / 0.45);
   --shadow-card: 0 12px 30px -12px oklch(0.4 0.1 260 / 0.18);
 }
